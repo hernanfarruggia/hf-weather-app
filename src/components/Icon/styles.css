@@ -1,0 +1,46 @@
+.icon {
+    background-size: cover;
+    height: 96px;
+    width: 96px;
+}
+  
+.icon.small {
+    height: 48px;
+    width: 48px;
+}
+  
+.icon.sun {
+    background-image: url('../../assets/sun.png');
+}
+  
+.icon.clouds {
+    background-image: url('../../assets/clouds.png');
+}
+  
+.icon.cloud-sun {
+    background-image: url('../../assets/cloud-sun.png');
+}
+  
+.icon.cloud-rain {
+    background-image: url('../../assets/cloud-rain.png');
+}
+  
+.icon.cloud-rain-wind {
+    background-image: url('../../assets/cloud-rain-wind.png');
+}
+  
+.icon.snow {
+    background-image: url('../../assets/snow.png');
+}
+  
+.icon.wind {
+    background-image: url('../../assets/wind.png');
+}
+  
+.icon.humidity {
+    background-image: url('../../assets/humidity.png');
+}
+  
+.icon.pressure {
+    background-image: url('../../assets/pressure.png');
+}

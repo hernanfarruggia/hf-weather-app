@@ -1,0 +1,8 @@
+.mapWrapper {
+    margin-bottom: 50px;
+}
+  
+.mapWrapper > div {
+    height: 400px;
+    width: 100%;
+}

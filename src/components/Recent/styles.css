@@ -1,0 +1,44 @@
+.recentSearch {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  
+.recentSearch .item {
+    border-bottom: 5px solid #c5c5c5;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+  
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px 12px 5px;
+    transition: all 0.1s ease-in;
+}
+  
+button.link {
+    color: #888888;
+}
+  
+button.link:active {
+    color: #000000;
+}
+  
+button.remove {
+    border-radius: 5px;
+    color: #dd7777;
+    padding: 12px 20px;
+}
+  
+button.remove:active {
+    background-color: #8f3737;
+    color: #ffffff;
+}
